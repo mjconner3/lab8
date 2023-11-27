@@ -1,5 +1,4 @@
 function init(){
-/function init(){
   var button = document.getElementById('entrybutton');
 
   function showMeText(){
@@ -11,13 +10,4 @@ function init(){
   button.addEventListener('click', showMeText);
   }
   
-window.addEventListener('load', init);/add your javascrip between these two lines of code
- 
-
-
-
-
-
-
-
 window.addEventListener('load', init);
